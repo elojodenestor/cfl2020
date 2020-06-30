@@ -1,0 +1,72 @@
+html {
+    background-color: #69906E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: #0D0F2E;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+body {
+    font-family: arial;
+}
+
+h2 {
+    color: #430E0B;
+    font-size: 50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10;
+}
+
+.botonera {
+    display: flex;
+    flex-flow: row;
+    margin-left: 3 0%;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.btn.btn-primary.btn-lg:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.btn.btn-secondary.btn-lg:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.frameDatos {
+    background-color: #40425F;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 80px;
+}
+
+.formDatos {
+    margin-bottom: 30px;
+}
+
+#cargaDatos {
+    margin: 10px;
+}
+
+#tareaIngresada {
+    width: 300px;
+}
+
+#Resultados {
+    margin-left: 15%;
+}
+
+label {
+    color: #BAAD88;
+}

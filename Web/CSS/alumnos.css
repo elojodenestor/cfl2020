@@ -1,0 +1,104 @@
+html {
+    background-color: #69906E;
+}
+
+h1 {
+    color: #0D0F2E;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+body {
+    font-family: arial;
+}
+
+h2 {
+    color: #BA8A88;
+    font-size: 50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10;
+}
+
+.pe {
+    margin-left: 49%;
+    font-size: 50;
+    font-style: oblique;
+}
+
+.LasVentas {
+    margin-left: 37%;
+}
+
+.botonera {
+    display: flex;
+    flex-flow: row;
+    margin-left: 3 0%;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.btn.btn-primary.btn-lg:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.btn.btn-secondary.btn-lg:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.frameDatos {
+    background-color: #40425F;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 80px;
+}
+
+.formDatos {
+    margin-bottom: 30px;
+}
+
+#nombre {
+    width: 300px;
+}
+
+#nota1 {
+    width: 90px;
+}
+
+#nota2 {
+    width: 90px;
+}
+
+#nota3 {
+    width: 90px;
+}
+
+#lasnotas {
+    font-size: 10;
+}
+
+#Resultados {
+    margin-left: 15%;
+}
+
+label {
+    color: #9C9DAE;
+}
+
+#peClick {
+    display: none;
+}
+
+.ver {
+    visibility: visible;
+    display: contents;
+}

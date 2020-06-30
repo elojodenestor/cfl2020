@@ -1,0 +1,37 @@
+html {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: #0D0F2E;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+body {
+    font-family: arial;
+}
+
+h2 {
+    color: #430E0B;
+    font-size: 50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10;
+}
+
+.layoutPpal {
+    border: solid black;
+    padding: 5%;
+    margin: 50px;
+}
+
+.row div {
+    border: solid black;
+}

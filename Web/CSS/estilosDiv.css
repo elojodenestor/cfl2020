@@ -1,0 +1,121 @@
+html {
+    background-color: #CAD3C8;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+}
+
+.Papaito {
+    background-color: #2C3A47;
+    margin: 1% 1%;
+    padding: 10px;
+    height: auto;
+    width: 96%;
+}
+
+.Encabezado {
+    background-color: #BDC581;
+    border: solid 5px #EAB543;
+    margin: auto;
+    padding: 10px;
+    height: 70px;
+    width: 95%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.Menu1 {
+    background-color: #FD7272;
+    height: 30px;
+    width: 30%;
+    justify-content: flex-end;
+}
+
+.Logo {
+    background-color: #1B9CFC;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 30%;
+    align-self: flex-end;
+}
+
+.Menu2 {
+    background-color: #182C61;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 50%;
+    align-self: flex-end;
+}
+
+.Cuerpo {
+    margin: auto;
+    padding: 10%;
+    height: 500px;
+    width: 150%;
+    display: flex;
+}
+
+.Cuerpo div {
+    border-radius: 15px;
+    border: solid 1px black;
+}
+
+.Izq1 {
+    background-color: #9AECDB;
+    height: 200px;
+    width: 40%;
+    flex: 1 1 auto
+}
+
+.Centro {
+    background-color: #82589F;
+    height: 200px;
+    width: 40%;
+    flex: 1 1 auto;
+}
+
+.Der1 {
+    background-color: #F97F51;
+    height: 200px;
+    width: 40%;
+    flex: 1 1 auto;
+}
+
+.Izq2 {
+    background-color: #F97F51;
+    height: 200px;
+    width: 70%;
+    align-self: flex-end;
+    flex: 2 1 auto;
+}
+
+.Der2 {
+    background-color: #1B9CFC;
+    align-self: flex-end;
+    height: 200px;
+    width: 30%;
+    flex: 1 1 auto;
+}
+
+.Pie {
+    background-color: #CAD3C8;
+    border: solid 5px #F97F51;
+    margin: auto;
+    padding: 5px;
+    height: 80px;
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+}
+
+.Elemento {
+    background-color: #55E6C1;
+    border: solid 1px black;
+    height: 30px;
+    width: 30%;
+    align-self: flex-end;
+    left: 65%;
+    position: relative;
+}
