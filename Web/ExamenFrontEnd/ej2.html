@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UFT-8"/>
+    <link rel="stylesheet" href="./ej2.css"> 
+    <title>EJERCICIO DOS - E X A M E N </title>
+</head>
+<h1>Ejercicio #2 del examen de Front-End</h1>
+<h2>El planteamiento es el siguiente:</h2>
+<h3>• Crear una pagina que contenga un input donde el usuario pueda cargar tareas. También deberá tener un botón "guardar tarea" cuyo funcionamiento sea agregar el contenido del input a una lista sin eliminar los valores cargados previamente</h3>
+<h3>• Crear un botón que se llame "Limpiar lista" y que al hacer click elimine todo el contenido de la lista de tareas.</h3>
+<h3>• Agregar como mínimo dos estilos para los elementos que prefiera.</h3>
+<body>
+    <div class="frameDatos">
+        <form class="formDatos">
+            <fieldset>
+                <label>Ingrese una tarea:</label>
+                <input type="text" id="tareaIngresada" placeholder="Introduzca una tarea aquí">
+            </input>
+        </form> 
+        <div id="cargaDatos">
+            <fieldset>
+                <h2>Tareas Ingresadas:</h2>
+                <ol id="lastareas"></ol>
+            </fieldset>
+        </div>
+        <div class="botonera">
+            <fieldset>
+                <button type="button" class="btn btn-primary btn-lg" id="botonQueAgrega">Agregar Tarea</button>
+                <button type="button" class="btn btn-secondary btn-lg" id="botonQueLimpia">Limpiar Tareas</button>
+            </fieldset>
+        </div>
+    </div>
+    <script type="text/javascript" src="./ej2.js"></script>
+</body>
+</html>

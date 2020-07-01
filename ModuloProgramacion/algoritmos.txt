@@ -1,0 +1,36 @@
+1- Sumar dos elementos:
+    Entrada:
+        Numero1 = 5
+        Numero2 = 2
+    Proceso:
+        Suma = Numero1 + Numero2
+    Salida:
+        5 + 2 = 7
+2- Preparar una tarta de frutillas:
+    Entrada:
+        Ingredientes = Harina, Huevos, Azucar, Mantequilla, Leche, Frutillas 
+        Implementos = Bol, Batidora, Bandeja, Horno
+    Proceso:
+        Usar = Implementos(Bol, Batidora)
+        Masa = Ingredientes(Mantequilla, Azucar, Huevos, Harina, Leche)
+        Torta = Implementos(Bandeja,Horno) + Masa
+    Salida:
+        Torta
+3- Tomar la presión sanguínea:
+    Entrada:
+        Tensiometro
+    Proceso:
+        La persona debe estar sentada
+        Colocar el Tensiometro en el brazo y presionar el botón de Inicio
+    Salida:
+        La lectura que arroja el Tensiometro
+4- Llenar una cajita de huevos con 5 huevos que están en una bolsa:
+    Entrada:
+        Cajita de Huevos
+        Bolsa con Huevos
+    Proceso:
+        Sacar uno a uno los 5 Huevos de la Bolsa
+        Ponerlos uno a uno en la Cajita
+    Salida:
+        Cajita con 5 Huevos, Bolsa vacía.
+    

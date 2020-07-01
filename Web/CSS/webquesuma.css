@@ -1,0 +1,12 @@
+.sumatoria {
+    display: flex;
+    flex-flow: row;
+}
+
+.sumatoria div {
+    margin: 10px;
+}
+
+.botonSum {
+    padding-top: 25px;
+}
