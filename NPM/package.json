@@ -1,0 +1,11 @@
+{
+    "name": "prueba",
+    "version": "1.0.0",
+    "description": "Prueba de holas",
+    "main": "hola.js",
+    "scripts": {
+        "Probar": "node hola.js & node holaDos.js"
+    },
+    "author": "Nestor Luis",
+    "license": "ISC"
+}
