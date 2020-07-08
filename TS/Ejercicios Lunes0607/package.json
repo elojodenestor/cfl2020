@@ -1,0 +1,15 @@
+{
+    "name": "ejercicios-lunes0607",
+    "version": "1.0.0",
+    "description": "ejercicio de votantes",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "votemos": "tsc votaciones.ts & node votaciones.js"
+    },
+    "author": "nestor luis bermudez",
+    "license": "ISC",
+    "dependencies": {
+        "readline-sync": "^1.4.10"
+    }
+}
