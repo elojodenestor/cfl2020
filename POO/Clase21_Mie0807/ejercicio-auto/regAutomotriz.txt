@@ -1,0 +1,6 @@
+jer234,Lada,Niva,2006,Pedrito
+gef458,Chevrolet,Spark,2010
+ger105,Ford,Focus,2014,Anto
+hws134,Ford,Fiesta,2012,Sutanito
+jeb593,Toyota,4runner,2020,nestor
+kor743,Ford,Focus,2020

@@ -1,0 +1,20 @@
+{
+    "name": "todolist",
+    "version": "1.0.0",
+    "description": "App de prueba con TypeScript",
+    "main": "index.js",
+    "scripts": {
+        "start": "http-server -p 8452"
+    },
+    "author": "Nestor Luis Bermudez",
+    "license": "ISC",
+    "dependencies": {
+        "@types/mustache": "^4.0.1",
+        "bootstrap": "^4.5.0",
+        "mustache": "^4.0.1",
+        "systemjs": "^6.3.3"
+    },
+    "devDependencies": {
+        "http-server": "^0.12.3"
+    }
+}
