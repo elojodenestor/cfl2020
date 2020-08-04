@@ -62,7 +62,6 @@ class RegistroAutomotor {
 }
 
 let archivo : string = fs.readFileSync("regAutomotriz.txt","utf-8");
-//let archivoFinal : string = fs.writeFileSync("regAutomotriz.txt","utf-8");
 let arrayRegistro : string[] = archivo.split("\r\n");
 let regAutos : RegistroAutomotor = new RegistroAutomotor(crearAutos(arrayRegistro))
 
@@ -124,7 +123,6 @@ function sistema(option : number) : number {
                 (own.length > 1) ? d  = own : d = "Auto de Agencia";
                 let nuevoAuto : Auto = new Auto(patNueva,m,mo,y,d);
                 regAutos.darDialta(nuevoAuto);
-                //archivoFinal.includes();
                 console.log("El auto fue agregado al registro automotor");
             } else {
                 console.log("La patente que intenta ingresar como nueva YA existe");
