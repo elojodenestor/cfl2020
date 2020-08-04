@@ -1,0 +1,19 @@
+{
+  "name": "cfl2020",
+  "version": "1.0.0",
+  "description": "ejercicio telefono",
+  "main": "fibonacci.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elojodenestor/cfl2020.git"
+  },
+  "author": "nestor luis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elojodenestor/cfl2020/issues"
+  },
+  "homepage": "https://github.com/elojodenestor/cfl2020#readme"
+}

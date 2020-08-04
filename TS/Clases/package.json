@@ -1,0 +1,15 @@
+{
+    "name": "viernes0307",
+    "version": "1.0.0",
+    "description": "",
+    "main": "Sumar.js",
+    "scripts": {
+        "compila": "tsc ejercicio0607.ts & node ejercicio0607.js"
+    },
+    "author": "nestor luis",
+    "license": "ISC",
+    "dependencies": {
+        "@types/node": "^14.0.19",
+        "readline-sync": "^1.4.10"
+    }
+}
